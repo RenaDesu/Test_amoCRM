@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Таймер отсчета времени до конца акции</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница WELBEX по макету</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -89,24 +90,33 @@
     </div>
   </header>
   <main class="main-container">
-    <h1 class="main-title">Спецпредложения <span>от WELBEX</span></h1>
-    <section class="promo">
-      <header class="promo__header">
-        <h2 class="promo__title"><span>Бесплатная консультация</span> от WELBEX</h2>
-        <p class="promo__key-message">Спешите заказать бесплатную консультацию!</p>
-        <a class="promo__link button" href="#">Узнать подробнее</a>
-      </header>
-      <div class="promo__timer-wrapper">
-        <p class="promo__timer-message">До конца акции осталось:</p>
-        <div class="promo__timer">
-          <span class="promo__time hours"></span>
-          <span class="promo__text">Часов</span>
-          <span class="promo__time minutes"></span>
-          <span class="promo__text">Минут</span>
-          <span class="promo__time seconds"></span>
-          <span class="promo__text">Секунд</span>
-        </div>
-      </div>
+    <h1 class="visually-hidden">Бесплатная консультаци от WELBEX</h1>
+    <section class="hero">
+      <h2 class="hero__title">Зарабатывайте больше <span>c WELBEX</span></h2>
+      <p class="hero__description">Развиваем и контролируем продажи за вас</p>
+    </section>
+    <section class="product-details">
+      <h2 class="visually-hidden">Состав бесплатной консультации от WELBEX</h2>
+      <p class="product-details__description">Вместе с <span>бесплатной консультацией</span> мы дарим:</p>
+      <ul class="product-details__list">
+        <li class="product-details__list-item">
+          <h3 class="product-details__title">Виджеты</h3>
+          <p class="product-details__item-description">30 готовых решений</p>
+        </li>
+        <li class="product-details__list-item">
+          <h3 class="product-details__title">Dashboard</h3>
+          <p class="product-details__item-description">с показателями вашего бизнеса</p>
+        </li>
+        <li class="product-details__list-item">
+          <h3 class="product-details__title">Skype Аудит</h3>
+          <p class="product-details__item-description">отдела продажи CRM системы</p>
+        </li>
+        <li class="product-details__list-item">
+          <h3 class="product-details__title">35 дней</h3>
+          <p class="product-details__item-description">использования CRM</p>
+        </li>
+      </ul>
+      <a class="product-details__link button" href="#">Получить консультацию</a>
     </section>
   </main>
   <footer class="main-footer">
@@ -212,7 +222,6 @@
       </div>
     </div>
   </footer>
-  <script src="/task1/timer.js"></script>
 </body>
 
 </html>
