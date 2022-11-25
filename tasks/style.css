@@ -100,7 +100,7 @@
 }
 
 .main-header {
-  margin: 35px 110px 51px 110px;
+  margin: 56px 150px 51px 150px;
   display: flex;
   align-items: flex-start;
 }
@@ -213,7 +213,7 @@
 }
 
 .main-container {
-  margin: 0 110px 124px 108px;
+  margin: 0 70px 124px 150px;
   flex-grow: 1;
 }
 
@@ -307,7 +307,7 @@
 }
 
 .main-footer {
-  margin: 0 192px 20px 110px;
+  margin: 0 150px 20px 150px;
   display: flex;
   justify-content: space-between;
 }
@@ -438,6 +438,65 @@
 }
 
 /* Задание 2 */
+.purple-ball {
+  position: absolute;
+  top: -2px;
+  left: 900px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../tasks/img/purple-ball.png);
+  background-position: top left -4px;
+  background-repeat: no-repeat;
+}
+
+.red-ball {
+  position: absolute;
+  top: 71px;
+  left: 549px;
+  width: 103px;
+  height: 103px;
+  background-image: url(../tasks/img/red-ball.png);
+  background-position: top left -4px;
+  background-repeat: no-repeat;
+}
+
+.brown-ball {
+  position: absolute;
+  top: 536px;
+  left: 881px;
+  width: 48px;
+  height: 48px;
+  background-image: url(../tasks/img/brown-ball.png);
+  background-position: top left -4px;
+  background-repeat: no-repeat;
+}
+
+.purple-light {
+  position: absolute;
+  top: -154px;
+  left: 602px;
+  width: 259px;
+  height: 259px;
+  border-radius: 200px;
+  background-color: #833AB4;
+  z-index: -1;
+  opacity: 50%;
+  filter: blur(150px);
+}
+
+.red-light {
+  position: absolute;
+  top: 251px;
+  left: -102px;
+  width: 311px;
+  height: 311px;
+  border-radius: 200px;
+  background-color: #961A1A;
+  z-index: -1;
+  opacity: 50%;
+  filter: blur(150px);
+}
+
 .main-wrapper {
   display: flex;
 }
@@ -683,6 +742,26 @@
     margin: 0 0 50px 0;
     font-size: 14px;
     line-height: 17px;
+  }
+
+  .purple-ball {
+    display: none;
+  }
+
+  .red-ball {
+    display: none;
+  }
+
+  .brown-ball {
+    display: none;
+  }
+
+  .red-light {
+    display: none;
+  }
+
+  .purple-light {
+    display: none;
   }
 
   .main-wrapper {
