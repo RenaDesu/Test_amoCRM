@@ -95,7 +95,7 @@
 
 .button:focus,
 .button:active {
-  opacity: none;
+  opacity: 100%;
   background-color: #074ef6;
 }
 
@@ -120,7 +120,6 @@
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 10px;
   line-height: 12px;
-  font-style: light;
   font-weight: 300;
 }
 
