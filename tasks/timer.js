@@ -4,7 +4,7 @@ const minutes = document.querySelector('.minutes');
 const seconds = document.querySelector('.seconds');
 const timerContainer = document.querySelector('.promo__timer-wrapper');
 
-const DEADLINE_DATE = new Date(`December 10 2022 23:59:59`);
+const DEADLINE_DATE = new Date(`March 31 2023 23:59:59`);
 
 
 const updateTimer = () => {
@@ -68,3 +68,4 @@ const mainFooterList = document.querySelector('.main-footer__list--mobile');
 }
 
 mediaQueryList.addEventListener('change', onMediaQueryChange);
+
