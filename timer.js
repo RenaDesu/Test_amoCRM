@@ -67,7 +67,6 @@ const mainFooterList = document.querySelector('.main-footer__list--mobile');
   }
 }
 
-onMediaQueryChange(mediaQueryList);
-
 mediaQueryList.addEventListener('change', onMediaQueryChange);
 
+onMediaQueryChange(mediaQueryList);
