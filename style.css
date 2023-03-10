@@ -443,7 +443,7 @@
   left: 900px;
   width: 80px;
   height: 80px;
-  background-image: url(../tasks/img/purple-ball.png);
+  background-image: url(../img/purple-ball.png);
   background-position: top left -4px;
   background-repeat: no-repeat;
 }
@@ -454,7 +454,7 @@
   left: 549px;
   width: 103px;
   height: 103px;
-  background-image: url(../tasks/img/red-ball.png);
+  background-image: url(../img/red-ball.png);
   background-position: top left -4px;
   background-repeat: no-repeat;
 }
@@ -465,7 +465,7 @@
   left: 881px;
   width: 48px;
   height: 48px;
-  background-image: url(../tasks/img/brown-ball.png);
+  background-image: url(../img/brown-ball.png);
   background-position: top left -4px;
   background-repeat: no-repeat;
 }
@@ -647,7 +647,7 @@
 
   .main-container {
     margin: 0;
-    background-image: url(../tasks/img/background-mobile.jpg);
+    background-image: url(../img/background-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 320px 100%;

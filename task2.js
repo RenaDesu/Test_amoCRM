@@ -52,5 +52,7 @@ const addDetailsList = () => {
   }
 }
 
+onMediaQueryChange(mediaQueryList);
+
 mediaQueryList.addEventListener('change', onMediaQueryChange);
 
